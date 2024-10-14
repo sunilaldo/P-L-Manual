@@ -1,0 +1,16 @@
+# Python program to show how to delete elements of a Python tuple     
+# Creating a tuple     
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Objects")     
+# Deleting a particular element of the tuple     
+try:      
+    del tuple_[3]     
+    print(tuple_)     
+except Exception as e:     
+    print(e)     
+# Deleting the variable from the global space of the program     
+del tuple_     
+# Trying accessing the tuple after deleting it     
+try:     
+    print(tuple_)     
+except Exception as e:     
+    print(e)
